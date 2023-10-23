@@ -1,0 +1,30 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+next/src/nextjs-blog/node_modules
+next/src/nextjs-blog/.pnp
+next/src/nextjs-blog/.pnp.js
+
+# testing
+next/src/nextjs-blog/coverage
+
+# next.js
+next/src/nextjs-blog/.next/
+next/src/nextjs-blog/out/
+
+# production
+next/src/nextjs-blog/build
+
+# misc
+next/src/nextjs-blog/.DS_Store
+
+# debug
+next/src/nextjs-blog/npm-debug.log*
+next/src/nextjs-blog/yarn-debug.log*
+next/src/nextjs-blog/yarn-error.log*
+
+# local env files
+next/src/nextjs-blog/.env.local
+next/src/nextjs-blog/.env.development.local
+next/src/nextjs-blog/.env.test.local
+next/src/nextjs-blog/.env.production.local
